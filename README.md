@@ -1,3 +1,5 @@
+OBS-> O FRONTEND DA APLICAÇÃO ESTA NA PASTA "REACT" DO ARQUIVO!!
+
 # Rotas Úteis
 
 ## Rota para a parte de álbum:
