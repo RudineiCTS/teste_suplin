@@ -1,0 +1,94 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+
+    h1{
+        font-family: Rosarivo, cursive ,serif;
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+    h2{
+        font-family: Josefin Slab ;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 0;
+        padding-left: 20px;
+
+    }
+}
+
+.inputContent{
+    display: flex;
+    justify-content: space-between;
+    width: 31rem;
+
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+
+    outline: none;
+    font-size: 1rem;
+    color: #000;
+
+    input{
+        border:none;
+        background: none;
+        width: 100%;
+        &:focus{
+            border: none;
+            outline: none;
+        }
+    }
+    button{
+        position: relative;
+
+        width: 10%;
+        height: 2rem;
+        border: none;
+        background-color: #fd1f6d;
+        border-radius: 0 10px 10px 0;
+        cursor:pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+.searchContent{
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+    span{
+        font-family: Junge;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    select{
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+        background-color: #EEEEEE;
+
+        outline: none;
+        font-size: 1rem;
+        color: #000;
+
+        &:focus{
+            border: 2px solid #615c5c72;
+        }
+    }
+}
+.containerAddItems{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+
+}

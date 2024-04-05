@@ -1,0 +1,39 @@
+.containerItem{
+    display: flex;
+    width: 70%;
+    margin-bottom: 50px;
+    background-color: #EBEBEB;
+    height: 70px;
+    border-radius: 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: space-evenly;
+
+    strong{
+        width: 400px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: Josefin Slab, serif;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    span{
+        font-family: Josefin Slab, serif;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 1rem;
+        color:#313131
+    }
+}
+
+    .miniBox{
+        align-self: center;
+        width: 10px;
+        height: 80%;
+        background: #50ac05;
+
+    }
+}

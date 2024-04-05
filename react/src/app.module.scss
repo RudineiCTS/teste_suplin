@@ -1,0 +1,97 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // align-items: center;
+    // justify-items: center;
+}
+.containerMusic{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+
+}
+
+.containerIllustration{
+    display:flex;
+    width: auto;
+    align-items: center;
+    margin-top: 45px;
+    padding-bottom:5.5rem;
+    .disk{
+        display: flex;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background:linear-gradient(to top, #9C418C, #D12F7A);
+        background-size: cover;
+        align-items: center;
+        z-index: 1;
+        div{
+            width: 32px;
+            height: 31px;
+            border-radius: 50%;
+            background:#fff;
+            z-index: 2;
+            position: relative;
+            left:44px
+        }
+    }
+    .box{
+        width: 130px;
+        height: 130px;
+        background: #000;
+        z-index: 3;
+
+        left:40px;
+        position: relative;
+    }
+}
+
+.containerItem{
+    display: flex;
+    width: 70%;
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+    strong{
+        width: 400px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: Josefin Slab, serif;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    span{
+        font-family: Josefin Slab, serif;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 1rem;
+        color:#313131
+    }
+}
+
+    .miniBox{
+        align-self: center;
+        width: 10px;
+        height: 100%;
+        background: #000;
+
+    }
+
+}
+
+.containerResult{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    padding-bottom:5.5rem;
+    width: 100vh;
+    height: 100vh;
+}
